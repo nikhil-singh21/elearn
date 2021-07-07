@@ -62,13 +62,25 @@
 						</div>
 					</td>
 				</tr>
+		
 	</tbody>
 	</table>
   	<div>
   
   </div>
-</div>
+  <div class="row">
+                            <div class="col-md-12">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination justify-content-center"  >
+                                        <li><a href="{{ prev }}"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> previous</a></li>
+                                         <li><a href="{{ next }}">   Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 
+                                    </ul>
+                                </nav>
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+</div>
+		
     <script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/jquery.min.js/}"></script>
     <script type="text/javascript" th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
 
